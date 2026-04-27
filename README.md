@@ -1,98 +1,36 @@
-# student-data-transformation-pandas
-This project focuses on cleaning and preprocessing a real-world styled student dataset using Python and Pandas.
+# Student Data Cleaning using Pandas
 
-# 🎓 Student Data Cleaning & Preprocessing Project
+## About this project
+In this project, I worked on a student dataset and performed data cleaning using Python and Pandas. The main goal was to understand how real-world data looks and how to make it clean and usable for analysis.
 
-## 📌 Overview
-This project demonstrates real-world data cleaning and preprocessing using Python (Pandas).  
-The dataset represents student information including marks, gender, city, and email.
+## What I did
+The dataset had many issues like missing values, wrong data types, and inconsistent data. I fixed these problems step by step:
 
----
+- Removed missing values using dropna()
+- Handled incorrect values like "twenty" in age column
+- Cleaned text data (names, gender, etc.)
+- Removed duplicate records
+- Fixed some invalid email formats
+- Standardized the dataset
 
-## 📊 Dataset Features
-- student_id
-- name
-- age
-- gender
-- marks
-- email
-- city
+## Extra work
+I also created some new columns like:
+- average marks for male students
+- average marks for female students
 
----
+This helped me understand how to generate insights from data.
 
-## ❌ Problems in Raw Dataset
-The original dataset had several issues:
-
-- Missing values (`NaN`, `absent`)
-- Incorrect data types (`"twenty"` instead of numeric)
-- Duplicate records (same student repeated)
-- Invalid emails (`manish@gmail` missing domain)
-- Inconsistent formatting
-
----
-
-## 🧹 Data Cleaning Steps
-
-### 1. Handling Missing Values
-- Replaced `NaN` and `absent` in marks
-- Filled missing city values
-- Removed or imputed null entries
-
-### 2. Data Type Conversion
-- Converted age column to numeric
-- Handled non-numeric values
-
-### 3. Duplicate Removal
-- Removed repeated student entries
-
-### 4. String Cleaning
-- Standardized names and gender values
-- Fixed inconsistent text formatting
-
-### 5. Email Validation
-- Identified and handled invalid email formats
-
-### 6. Feature Engineering
-- Calculated:
-  - `male_avg`
-  - `female_avg`
-  - `avg_male`
-
----
-
-## ✅ Final Output
-Clean dataset with:
-- No missing values
-- Correct data types
-- Consistent formatting
-- Additional analytical columns
-
----
-
-## 📈 Key Insights
-- Average marks of male students: **74.0**
-- Average marks of female students: **88.5**
-- Female students performed better on average
-
----
-
-## 🛠️ Technologies Used
+## Tools used
 - Python
 - Pandas
 - Jupyter Notebook
 
----
+## What I learned
+Through this project, I learned:
+- How to clean real-world messy data
+- How to use Pandas functions effectively
+- Importance of data preprocessing before analysis
 
-## 🚀 How to Run
+## Conclusion
+This project helped me build a strong foundation in data cleaning and preprocessing, which is an important step in data analysis.
 
-```bash
-pip install pandas
-Open Jupyter Notebook and run:
-
-import pandas as pd
-
-📦 student-data-cleaning
- ┣ 📜 student_dataset.csv        # Raw dataset
- ┣ 📜 cleaned_dataset.csv        # Cleaned dataset
- ┣ 📜 student_dataset.ipynb      # Notebook with cleaning steps
- ┗ 📜 README.md
