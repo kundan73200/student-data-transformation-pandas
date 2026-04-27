@@ -1,0 +1,20 @@
+student_id,name,age,gender,marks,email,city
+101,Amit Kumar,20,Male,85,amit@gmail.com,Delhi
+102,Priya Sharma,19,Female,90,priya@gmail.com,Mumbai
+103,Rahul Singh,21,Male,81,rahul@gmail.com,Kolkata
+104,Anjali Verma,20,Female,88,anjali@gmail,Delhi
+106,Sneha Patel,19,Female,92,sneha@gmail.com,Mumbai
+107,Vikas Gupta,20,Male,67,vikas@gmail.com,Pune
+108,Neha Jain,20,Female,89,neha@gmail.com,Delhi
+109,Arjun Das,21,Male,55,arjun@gmail.com,Kolkata
+110,Kiran Roy,20,Female,91,kiran@gmail.com,
+111,Amit Kumar,20,Male,85,amit@gmail.com,Delhi
+112,Pooja Mehta,19,Female,95,pooja@gmail.com,Mumbai
+113,Ravi Kumar,20,Male,72,ravi@gmail.com,Patna
+114,Simran Kaur,21,Female,81,simran@gmail.com,Chandigarh
+115,Manish Yadav,22,Male,60,manish@gmail,Delhi
+116,Nisha Singh,20,Female,87,nisha@gmail.com,Lucknow
+117,Deepak Kumar,19,Male,78,deepak@gmail.com,Patna
+118,Tina Das,20,Female,82,tina@gmail.com,Kolkata
+119,Alok Verma,21,Male,81,alok@gmail.com,Delhi
+120,Ritu Sharma,20,Female,90,ritu@gmail.com,Mumbai
